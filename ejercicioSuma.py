@@ -1,5 +1,5 @@
-def suma(a,b):
-    return a+b
+def suma(*args):
+    return sum(args)
 
-resultado=suma(5,4)
-print(f"La suma de dos numeros es: {resultado}")
+resultado=suma(5,4,3)
+print(f"La suma de los numeros pasados es: {resultado}")
